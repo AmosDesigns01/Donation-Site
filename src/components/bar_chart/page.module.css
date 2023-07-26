@@ -1,0 +1,143 @@
+.bar_chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: 45.818px;
+    background: linear-gradient(175deg, #435EEF 0%, rgba(178, 52, 255, 0.90) 100%);
+    color: var(--color-white);
+    text-align: center;
+    padding: 1.5rem 3%;
+}
+
+.bar_chart .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bar_chart .text h1 {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+}
+
+.bar_chart .text p {
+    font-size: 1rem;
+}
+
+.bar_chart .text hr {
+    width: 70vw;
+}
+
+.bar_chart .chart {
+    width: 100%;
+    background-color: var(--color-white);
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    flex-wrap: wrap;
+    /* grid-template-rows: repeat(2, 1fr); */
+}
+
+.namebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+}
+
+.color {
+    width: .8rem;
+    height: .8rem;
+    background-color: black;
+}
+
+.namebox .brown {
+    width: .8rem;
+    height: .8rem;
+    background-color: brown;
+    border-radius: 3px;
+}
+
+.namebox .lightblue {
+    width: .8rem;
+    height: .8rem;
+    background-color: lightblue;
+    border-radius: 3px;
+}
+
+.namebox .red {
+    width: .8rem;
+    height: .8rem;
+    background-color: red;
+    border-radius: 3px;
+}
+
+.namebox .yellow {
+    width: .8rem;
+    height: .8rem;
+    background-color: yellow;
+    border-radius: 3px;
+}
+
+.namebox .teal {
+    width: .8rem;
+    height: .8rem;
+    background-color: teal;
+    border-radius: 3px;
+}
+
+.namebox .blue {
+    width: .8rem;
+    height: .8rem;
+    background-color: blue;
+    border-radius: 3px;
+}
+
+.namebox .brown {
+    width: .8rem;
+    height: .8rem;
+    background-color: brown;
+    border-radius: 3px;
+}
+
+.namebox .purple {
+    width: .8rem;
+    height: .8rem;
+    background-color: purple;
+    border-radius: 3px;
+}
+
+.namebox .teal {
+    width: .8rem;
+    height: .8rem;
+    background-color: teal;
+    border-radius: 3px;
+}
+
+.namebox .lightgreen {
+    width: .8rem;
+    height: .8rem;
+    background-color: lightgreen;
+    border-radius: 3px;
+}
+
+.namebox .magenta {
+    width: .8rem;
+    height: .8rem;
+    background-color: magenta;
+    border-radius: 3px;
+}
+
+.namebox p {
+    font-size: .7rem;
+}

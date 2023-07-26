@@ -1,0 +1,18 @@
+.progress_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: 45.818px;
+    background: linear-gradient(175deg, #435EEF 0%, rgba(178, 52, 255, 0.90) 100%);
+    color: var(--color-white);
+    text-align: center;
+    padding: 1.5rem 3%;
+}
+
+.progress_bar .amount {
+    display: flex;
+    gap: .7rem;
+    justify-content: center;
+    align-items: center;
+}
